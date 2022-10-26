@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>
+        <h4>"hi this a flask operation</h4>
+    </title>
+</head>
+<body>
+<h1> Placement prediction </h1>
+  {% if n %}
+     <h1>{{ n }}</h1>
+  {% endif %}
+
+
+
+<form method="POST" action="/sub">
+    <input type="text" name="Cgpa" placeholder="Cgpa"><br>
+    <input type="text" name="placement_exam_marks" placeholder="placement_exam_marks">
+    <input type="submit" value="predict">
+
+</form>
+</body>
+</html>
