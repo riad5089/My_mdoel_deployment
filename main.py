@@ -21,5 +21,6 @@ def submit():
         # name=request.form["username"]
 
     return render_template("index.html",n=result)
+
 if __name__== "__main__":
     app.run(debug=True)
